@@ -1,0 +1,88 @@
+.task-list {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.task-card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 16px;
+  margin: 12px 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.task-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.task-title {
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 6px;
+  color: #111827;
+}
+
+.task-desc {
+  margin-bottom: 12px;
+  color: #4b5563;
+}
+
+.task-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.task-actions button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s ease;
+}
+
+.task-actions .edit {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.task-actions .edit:hover {
+  background-color: #2563eb;
+}
+
+.task-actions .delete {
+  background-color: #ef4444;
+  color: white;
+}
+
+.task-actions .delete:hover {
+  background-color: #dc2626;
+}
+
+.task-actions .save {
+  background-color: #22c55e;
+  color: white;
+}
+
+.task-actions .save:hover {
+  background-color: #16a34a;
+}
+
+.task-actions .cancel {
+  background-color: #9ca3af;
+  color: white;
+}
+
+.task-actions .cancel:hover {
+  background-color: #6b7280;
+}
+
+.task-edit-input {
+  padding: 8px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
